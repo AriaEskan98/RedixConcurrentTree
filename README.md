@@ -10,11 +10,11 @@ A Thread Safe Sorted Tree using the Redix Trie Data Structure
 - Optimized for byte array keys
 
 ## Usage
-\`\`\`java
+```java
 RadixTrieThreadSafeSortedTree tree = new RadixTrieThreadSafeSortedTree();
 tree.put("hello".getBytes(), "world".getBytes());
 byte[] value = tree.get("hello".getBytes());
-\`\`\`
+```
 
 ## Building
 \`\`\`bash
