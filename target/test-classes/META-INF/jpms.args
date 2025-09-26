@@ -1,0 +1,4 @@
+--patch-module
+com.ariae=_
+--add-reads
+com.ariae=ALL-UNNAMED
