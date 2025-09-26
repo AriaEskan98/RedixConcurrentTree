@@ -17,11 +17,11 @@ byte[] value = tree.get("hello".getBytes());
 ```
 
 ## Building
-\`\`\`bash
+```bash
 mvn clean package
-\`\`\`
+```
 
 ## Testing  
-\`\`\`bash
+```bash
 mvn test
-\`\`\`
+```
