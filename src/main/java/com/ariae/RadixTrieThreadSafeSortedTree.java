@@ -24,7 +24,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * - Lock ordering (parent before child) to prevent deadlocks
  * - Atomic updates for value modifications
  *
- * @author Your Name
+ * @author Aria Eskandarzadeh
  * @version 1.0.0
  */
 public class RadixTrieThreadSafeSortedTree implements SortedTree {
